@@ -66,7 +66,8 @@ img{
     left: 0;
     width: 100%;
     background-color: var(--second-modal-color);
-    opacity: 0;
+    /* opacity: 0; */
+    /* visibility: hidden; */
     /*De Arriba*/
     transform: translate(0, -100%);
     /*De Abajo*/
@@ -80,7 +81,8 @@ img{
 
 .panel.is-active{
     transform: translate(0, 0);
-    opacity: 1;
+    /* opacity: 1; */
+    /* visibility: visible; */
 }
 
 .panel-btn{
