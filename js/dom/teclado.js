@@ -7,8 +7,8 @@ export function moveBall(e, ball, stage){
           limitsBall = $ball.getBoundingClientRect(),
           limitsStage = $stage.getBoundingClientRect();
 
-    console.log(e.keyCode);
-    console.log(e.key);
+    // console.log(e.keyCode);
+    // console.log(e.key);
 
     switch (e.keyCode) {
         case 37:
